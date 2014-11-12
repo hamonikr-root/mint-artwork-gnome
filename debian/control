@@ -1,0 +1,14 @@
+Source: mint-artwork-gnome
+Section: admin
+Priority: optional
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: mint-artwork-gnome
+Architecture: all
+Replaces: mint-artwork-debian, mint-artwork-common (<< 1.5.7)
+Conflicts: mint-artwork-debian, mint-artwork-common (<< 1.5.7) 
+Depends: mint-artwork-common, gtk2-engines, gtk2-engines-murrine, gtk2-engines-pixbuf, mint-x-icons, mint-themes, mint-backgrounds-qiana
+Description: Default artwork for Linux Mint
+ Default artwork for Linux Mint
